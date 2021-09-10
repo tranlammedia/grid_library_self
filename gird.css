@@ -9,6 +9,7 @@
     --width-col-8: calc(100%/12*8);
     --width-col-9: calc(100%/12*9);
     --width-col-10: calc(100%/12*10);
+    --width-col-10-2: calc(100%/10*2);
     --width-col-11: calc(100%/12*11);
     --width-col-12: calc(100%/12*12);
 }
@@ -99,37 +100,37 @@
     max-width: var(--width-col-12);
 }
 
-.c-0-1 {
+.c-o-1 {
     margin-left: var(--width-col-1);
 }
-.c-0-2 {
+.c-o-2 {
     margin-left: var(--width-col-2);
 }
-.c-0-3 {
+.c-o-3 {
     margin-left: var(--width-col-3);
 }
-.c-0-4 {
+.c-o-4 {
     margin-left: var(--width-col-4);
 }
-.c-0-5 {
+.c-o-5 {
     margin-left: var(--width-col-5);
 }
-.c-0-6 {
+.c-o-6 {
     margin-left: var(--width-col-6);
 }
-.c-0-7 {
+.c-o-7 {
     margin-left: var(--width-col-7);
 }
-.c-0-8 {
+.c-o-8 {
     margin-left: var(--width-col-8);
 }
-.c-0-9 {
+.c-o-9 {
     margin-left: var(--width-col-9);
 }
-.c-0-10 {
+.c-o-10 {
     margin-left: var(--width-col-10);
 }
-.c-0-11 {
+.c-o-11 {
     margin-left: var(--width-col-11);
 }
 
@@ -214,37 +215,37 @@
         max-width: var(--width-col-12);
     }
 
-    .m-0-1 {
+    .m-o-1 {
         margin-left: var(--width-col-1);
     }
-    .m-0-2 {
+    .m-o-2 {
         margin-left: var(--width-col-2);
     }
-    .m-0-3 {
+    .m-o-3 {
         margin-left: var(--width-col-3);
     }
-    .m-0-4 {
+    .m-o-4 {
         margin-left: var(--width-col-4);
     }
-    .m-0-5 {
+    .m-o-5 {
         margin-left: var(--width-col-5);
     }
-    .m-0-6 {
+    .m-o-6 {
         margin-left: var(--width-col-6);
     }
-    .m-0-7 {
+    .m-o-7 {
         margin-left: var(--width-col-7);
     }
-    .m-0-8 {
+    .m-o-8 {
         margin-left: var(--width-col-8);
     }
-    .m-0-9 {
+    .m-o-9 {
         margin-left: var(--width-col-9);
     }
-    .m-0-10 {
+    .m-o-10 {
         margin-left: var(--width-col-10);
     }
-    .m-0-11 {
+    .m-o-11 {
         margin-left: var(--width-col-11);
     }    
 }
@@ -321,6 +322,10 @@
         flex: 0 0 var(--width-col-10);
         max-width: var(--width-col-10);
     }
+    .l-10-2 {
+        flex: 0 0 var(--width-col-10-2);
+        max-width: var(--width-col-10-2);
+    }
     .l-11 {
         flex: 0 0 var(--width-col-11);
         max-width: var(--width-col-11);
@@ -330,37 +335,37 @@
         max-width: var(--width-col-12);
     }
 
-    .l-0-1 {
+    .l-o-1 {
         margin-left: var(--width-col-1);
     }
-    .l-0-2 {
+    .l-o-2 {
         margin-left: var(--width-col-2);
     }
-    .l-0-3 {
+    .l-o-3 {
         margin-left: var(--width-col-3);
     }
-    .l-0-4 {
+    .l-o-4 {
         margin-left: var(--width-col-4);
     }
-    .l-0-5 {
+    .l-o-5 {
         margin-left: var(--width-col-5);
     }
-    .l-0-6 {
+    .l-o-6 {
         margin-left: var(--width-col-6);
     }
-    .l-0-7 {
+    .l-o-7 {
         margin-left: var(--width-col-7);
     }
-    .l-0-8 {
+    .l-o-8 {
         margin-left: var(--width-col-8);
     }
-    .l-0-9 {
+    .l-o-9 {
         margin-left: var(--width-col-9);
     }
-    .l-0-10 {
+    .l-o-10 {
         margin-left: var(--width-col-10);
     }
-    .l-0-11 {
+    .l-o-11 {
         margin-left: var(--width-col-11);
     }
 }
@@ -445,6 +450,9 @@
     .wide .l-10 {
         flex: 0 0 var(--width-col-10);
         max-width: var(--width-col-10);
+    }  .wide .l-10-2 {
+        flex: 0 0 var(--width-col-10-2);
+        max-width: var(--width-col-10-2);
     }
     .wide .l-11 {
         flex: 0 0 var(--width-col-11);
@@ -455,37 +463,38 @@
         max-width: var(--width-col-12);
     }
 
-    .wide .l-0-1 {
+    .wide .l-o-1 {
         margin-left: var(--width-col-1);
     }
-    .wide .l-0-2 {
+    .wide .l-o-2 {
         margin-left: var(--width-col-2);
     }
-    .wide .l-0-3 {
+    .wide .l-o-3 {
         margin-left: var(--width-col-3);
     }
-    .wide .l-0-4 {
+    .wide .l-o-4 {
         margin-left: var(--width-col-4);
     }
-    .wide .l-0-5 {
+    .wide .l-o-5 {
         margin-left: var(--width-col-5);
     }
-    .wide .l-0-6 {
+    .wide .l-o-6 {
         margin-left: var(--width-col-6);
     }
-    .wide .l-0-7 {
+    .wide .l-o-7 {
         margin-left: var(--width-col-7);
     }
-    .wide .l-0-8 {
+    .wide .l-o-8 {
         margin-left: var(--width-col-8);
     }
-    .wide .l-0-9 {
+    .wide .l-o-9 {
         margin-left: var(--width-col-9);
     }
-    .wide .l-0-10 {
+    .wide .l-o-10 {
         margin-left: var(--width-col-10);
     }
-    .wide .l-0-11 {
+    
+    .wide .l-o-11 {
         margin-left: var(--width-col-11);
     }
 }
